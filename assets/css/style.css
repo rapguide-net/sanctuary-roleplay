@@ -313,6 +313,11 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+.job-description {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 /* SANCTUARY DONATION PACKAGES */
 .donation-section {
     padding: 40px 20px;
