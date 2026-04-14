@@ -678,6 +678,22 @@ body::-webkit-scrollbar {
     box-shadow: 0 10px 20px rgb(103, 9, 234);
 }
 
+.note-wrapper {
+    flex: 1;
+    /* Takes up equal space */
+    margin-top: 35px;
+    line-height: 1.7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.note-wrapper p {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: #ffffffc1;
+    padding: 5px;
+    border-left: 5px solid #4302bbbe;
+}
+
 /* Footer Content */
 .footer {
     width: 100%;
