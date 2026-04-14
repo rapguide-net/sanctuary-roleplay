@@ -534,11 +534,43 @@ body::-webkit-scrollbar {
 }
 
 .team-role {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Utubu', sans-serif;
     font-size: 0.9rem;
-    color: #bf90ee;
+    font-style: italic;
+    background: linear-gradient(45deg, rgb(254, 254, 254), rgb(146, 97, 237), rgb(121, 76, 236));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    border-right: .15em solid #bf90ee;
+    white-space: nowrap;
     margin-top: 15px;
     opacity: 100%;
+
+    animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
+    width: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #bf90ee
+    }
 }
 
 /* SERVER NOTIFICATION */
