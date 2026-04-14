@@ -279,12 +279,6 @@ body::-webkit-scrollbar {
     align-items: flex-start;
 }
 
-.job-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(103, 9, 234, 0.3);
-    border-color: #c0a7e1;
-}
-
 .job-card.active-slide {
     opacity: 1;
     pointer-events: auto;
