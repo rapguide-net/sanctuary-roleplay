@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting..</title>
+
+    <link rel="icon" type="image/png" href="/assets/images/logo.png">
+    <link rel="stylesheet" href="/assets/css/authentication.css">
+</head>
+
+<body>
+    <!-- Authentication Page -->
+    <div class="container">
+        <section class="form">
+            <img src="/assets/images/logo.png" alt="logo" class="server-logo">
+            <div class="authentication">
+                <h1>Are you sure you want to buy this package?</h1>
+
+                <p>Select Proceed if Yes if Not Select Cancel.</p>
+
+                <button id="proceed"> Yes</button>
+                <button id="cancel"> Cancel</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- JS System for this page. -->
+    <script>
+        // Redirection Logic For Sanctuary Website
+        const proceedBtn = document.getElementById('proceed');
+        const cancelBtn = document.getElementById('cancel');
+
+        // Discord Link
+        proceedBtn.addEventListener('click', () => {
+            window.location.href = 'https://discord.com/users/950944268011323432'
+        });
+
+        // Website (Home)
+        cancelBtn.addEventListener('click', () => {
+            window.location.href = 'empty for now!';
+        });
+    </script>
+</body>
+</html>
