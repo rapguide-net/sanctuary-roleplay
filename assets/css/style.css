@@ -310,10 +310,11 @@ body::-webkit-scrollbar {
 .package-2 h2,
 .package-3 h2,
 .package-4 h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     margin-bottom: 20px;
-    font-family: 'Arial', sans-serif;
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #fdfdfd;
 }
 
 .package-description ul {
@@ -341,12 +342,12 @@ body::-webkit-scrollbar {
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #f3f3f5d2;
+    color: #bea0e6f7;
     margin: 20px 0;
 }
 
 .pay-button {
-    background: linear-gradient(45deg, #9066ea, #764ba2);
+    background: linear-gradient(45deg, #4005c0, #8b3adc);
     color: white;
     border: none;
     padding: 15px 30px;
@@ -363,7 +364,7 @@ body::-webkit-scrollbar {
 
 .pay-button:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 25px rgb(75, 6, 248);
+    box-shadow: 0 10px 25px rgb(26, 4, 83);
 }
 
 /* SANCTUARY ADMIN TEAM */
