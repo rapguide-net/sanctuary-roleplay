@@ -243,6 +243,76 @@ body::-webkit-scrollbar {
     -webkit-text-fill-color: transparent;
 }
 
+/* JOBS SECTION */
+.server-jobs {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.slides-container {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.slides-wrapper {
+    display: grid;
+    width: 100%;
+}
+
+.job-card {
+    grid-area: 1 / 1;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: opacity 1s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    align-items: flex-start;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(103, 9, 234, 0.3);
+    border-color: #c0a7e1;
+}
+
+.job-card.active-slide {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.best-job {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.info-icon {
+    margin-left: 8px;
+    color: #c0a7e1;
+    cursor: pointer;
+}
+
 /* SANCTUARY DONATION PACKAGES */
 .donation-section {
     padding: 40px 20px;
