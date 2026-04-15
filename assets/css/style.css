@@ -644,12 +644,16 @@ body::-webkit-scrollbar {
 
 /* CONTACT SECTION STYLES */
 .report {
-    padding: 80px 5%;
-    text-align: center;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1000px;
+    gap: 50px;
 }
 
 .report h2 {
+    width: 100%;
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 40px;
@@ -658,11 +662,13 @@ body::-webkit-scrollbar {
     background: linear-gradient(45deg, rgba(138, 60, 239, 1), rgba(226, 224, 231, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .submit-report {
+    flex: 1;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -688,26 +694,28 @@ body::-webkit-scrollbar {
 }
 
 .submit-report select option {
-    background: #1d0455;
+    background: #211835;
     color: #fff;
 }
 
 .submit-report, .submit {
-    max-width: 200px;
     background: transparent;
-    color: #ffffff;
-    border: 2px solid #c0a7e1;
+    max-width: 200px;
+    color: #ffff;
+    border: 1px solid #a27aeb;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     padding: 10px 15px;
     margin-top: 15px;
+    transition: all 0.3s ease;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
 .submit:hover {
-    box-shadow: 0 10px 20px rgb(103, 9, 234);
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgb(26, 4, 83);
 }
 
 .note-wrapper {
