@@ -647,6 +647,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
     width: 80%;
     max-width: 1000px;
     gap: 50px;
