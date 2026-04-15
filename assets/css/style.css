@@ -499,19 +499,17 @@ body::-webkit-scrollbar {
     backdrop-filter: blur(8px);
     /* Frosted glass effect */
     -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(0, 0, 0, 0.236);
     border-radius: 30px;
     padding: 50px 50px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(252, 252, 252, 0.845);
-    /* Subtle border */
 }
 
 .team-card:hover {
     transform: translateY(-10px);
     /* Lift effect on hover */
-    box-shadow: 0 10px 20px rgb(103, 9, 234);
-    /* Subtle shadow on hover */
+    box-shadow: 0 10px 20px rgba(60, 3, 152, 0.78);
 }
 
 .team-avatar {
